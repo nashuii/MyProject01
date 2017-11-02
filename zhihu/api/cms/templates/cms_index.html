@@ -1,0 +1,11 @@
+{% extends "cms_base.html" %}
+{% load static %}
+
+{% block titleblock %}{% endblock titleblock %}
+
+{% block bodyblock %}
+    {{ block.super }}
+    <div style="height: 200px;background:#F19246; padding:100px;">
+        这是CMS首页
+	</div>
+{% endblock bodyblock %}
